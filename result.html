@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session ID Generated - Stany Tech</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-blue-900 to-purple-900 min-h-screen">
+    <div class="container mx-auto px-4 py-16">
+        <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-xl overflow-hidden">
+            <div class="p-8">
+                <div class="text-center mb-8">
+                    <img src="https://files.catbox.moe/rmxujw.jpeg" alt="Stany Tech Logo" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <h1 class="text-3xl font-bold text-gray-800">Session ID Generated!</h1>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="font-mono text-lg text-center text-blue-600 break-all p-4 bg-gray-100 rounded">
+                        {{ session_id }}
+                    </div>
+                    <p class="text-center mt-4 text-gray-600">
+                        Your file has been securely stored with this unique session ID
+                    </p>
+                </div>
+
+                <div class="mt-8 text-center">
+                    <a href="/" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300">
+                        Upload Another File
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
