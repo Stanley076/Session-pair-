@@ -38,5 +38,8 @@ heroku buildpacks:add heroku/python
 pip install -r requirements.txt
 python app.py
 ```
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+````
+
 
 ## STANY-TECH TZ
