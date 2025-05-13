@@ -1,6 +1,6 @@
-# Stany Tech Secure Upload System
+# Stany Tech 
 
-![Stany Tech Logo](https://files.catbox.moe/rmxujw.jpeg)
+![Stany Tech Logo](https://files.catbox.moe/xmo2xp.jpg)
 
 A secure file upload system with military-grade session ID generation.
 
@@ -39,24 +39,4 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## Environment Variables
-Create `.env` file:
-```
-FLASK_APP=app.py
-FLASK_ENV=development
-SECRET_KEY=your_secret_key_here
-```
-
-## Project Structure
-```
-/stany-tech
-├── app.py
-├── requirements.txt
-├── Procfile
-├── README.md
-└── /templates
-    ├── index.html
-    └── result.html
-```
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+## STANY-TECH TZ
